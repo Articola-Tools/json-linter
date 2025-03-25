@@ -172,7 +172,7 @@ jobs:
 
             - name: "Run Markdown linter"
               run: "docker run --rm -v ${{ github.workspace }}:/linter_workdir/repo
-                    ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
+                    ${{ env.REGISTRY }}/articola-tools/markdown-linter:latest"
 
     validate-file-paths:
         runs-on: "ubuntu-latest"
