@@ -13,4 +13,3 @@ parameter.
 
 Example command to use this linter -
 `docker run --rm -v ./:/linter_workdir/repo ghcr.io/articola-tools/json-linter --check`
-
