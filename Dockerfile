@@ -1,4 +1,4 @@
-FROM node:23-alpine3.20
+FROM node:24-alpine3.20
 
 RUN addgroup -S lintergroup && adduser -S linteruser -G lintergroup
 
